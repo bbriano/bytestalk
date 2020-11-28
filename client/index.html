@@ -1,0 +1,51 @@
+<head>
+    <script defer src="script.js"></script>
+    <style>
+
+        body {
+            margin: 0;
+            padding: 1rem;
+            overflow-x: hidden;
+            overscroll-behavior: none;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+
+        #output {
+            margin: 0;
+        }
+
+        #input-line {
+            width: 100%;
+            display: flex;
+        }
+
+        #prompt {
+            margin: 0;
+            display: inline;
+        }
+
+        #input {
+            font-family: monospace;
+            padding: 0;
+            outline: none;
+            border: none;
+            flex-grow: 1;
+        }
+
+    </style>
+</head>
+<body>
+<pre id="output">
+    *** REAL TIME GLOBAL CHAT ***
+
+No rules, No complaining, Just pure bytes
+
+</pre>
+    <div id="input-line">
+        <pre id="prompt">&gt; </pre>
+        <input type="text" id="input" autofocus autocomplete="off"></input>
+    </div>
+</body>
