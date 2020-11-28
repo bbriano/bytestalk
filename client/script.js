@@ -1,6 +1,6 @@
 const input = document.querySelector("#input");
 const output = document.querySelector("#output");
-const socket = new WebSocket("ws://localhost:8080/ws");
+const socket = new WebSocket("ws://138.68.58.77:2376/ws");
 
 output.innerHTML += "Connecting...\n";
 
